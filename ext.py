@@ -10,12 +10,12 @@
     :license: BSD, see LICENSE for more details.
 """
 
-from flask.ext.debugtoolbar import DebugToolbarExtension
-from flask.ext.gravatar import Gravatar
-from flask.ext.login import LoginManager
-from flask.ext.sqlalchemy import SQLAlchemy
-from flask.ext.assets import Environment
-from flask.ext.restplus import Api
+from flask_debugtoolbar import DebugToolbarExtension
+from flask_gravatar import Gravatar
+from flask_login import LoginManager
+from flask_sqlalchemy import SQLAlchemy
+from flask_assets import Environment
+from flask_restplus import Api
 
 
 db = SQLAlchemy()

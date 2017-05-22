@@ -10,7 +10,7 @@
     :license: BSD, see LICENSE for more details.
 """
 
-from flask.ext.login import UserMixin
+from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
 from ext import db
 
@@ -23,7 +23,7 @@ class CRUDMixin(object):
     @classmethod
     def get_by_id(cls, id):
         if any(
-            (isinstance(id, basestring) and id.isdigit(),
+            (isinstance(id, str) and id.isdigit(),
              isinstance(id, (int, float))),
         ):
             return cls.query.get(int(id))

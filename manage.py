@@ -12,7 +12,7 @@
 """
 
 import subprocess
-from flask.ext.script import Shell, Manager
+from flask_script import Shell, Manager
 from app import app
 from base import User
 from ext import db

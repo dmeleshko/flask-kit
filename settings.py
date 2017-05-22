@@ -17,6 +17,7 @@ class BaseConfig(object):
     DEBUG = False
     SECRET_KEY = "MY_VERY_SECRET_KEY"
     SQLALCHEMY_DATABASE_URI = 'sqlite:////tmp/test.db'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
     CSRF_ENABLED = True
     ROOT_PATH = os.path.abspath(os.path.dirname(__file__))
 

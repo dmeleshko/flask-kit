@@ -13,7 +13,7 @@
 from flask.templating import render_template
 from flask.views import MethodView
 from flask import flash, redirect, request, url_for
-from flask.ext.login import login_user, login_required, logout_user
+from flask_login import login_user, login_required, logout_user
 
 from ext import login_manager
 from base import base
