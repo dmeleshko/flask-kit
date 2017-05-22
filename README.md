@@ -27,7 +27,7 @@ And it looks like this:
     helpers.py
     settings.py
     manage.py
-    reqs.pip
+    requirements.txt
     ...
 ```
 
@@ -54,7 +54,7 @@ and I don't have to explain how to setup and use it.
 
 1. ```git clone git://github.com/semirook/flask-kit.git```
 2. ```cd flask-kit```
-3. ```pip install -r reqs.pip```
+3. ```pip install -r requirements.txt```
 
 
 ## Run
